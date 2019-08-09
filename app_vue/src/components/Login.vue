@@ -25,6 +25,8 @@
 
 <script>
 
+import { http } from '../services/config'
+
 export default {
   data () {
     return { email: '', password: '' }
